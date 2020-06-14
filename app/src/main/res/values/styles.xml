@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorMain</item>
+        <item name="colorPrimaryDark">@color/colorMain</item>
+        <item name="colorAccent">@color/colorDarkGrey</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">false</item>
+    </style>
+
+    <style name="RadioButtonCircle" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="colorControlNormal">@color/colorCardRBSymbol</item>
+        <item name="colorControlActivated">@color/colorCardRBSymbol</item>
+    </style>
+
+    <style name="RadioButtonText" parent="Theme.AppCompat.Light">
+        <item name="fontFamily">@font/roboto</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="SwitchStyle" parent="Theme.AppCompat.Light">
+        <item name="fontFamily">@font/roboto</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textOn">@string/on</item>
+        <item name="android:textOff">@string/off</item>
+        <item name="colorControlActivated">@color/colorGreen</item>
+    </style>
+
+</resources>

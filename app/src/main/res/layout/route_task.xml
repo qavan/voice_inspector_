@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/idListItem"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="4dp"
+    android:layout_marginTop="2dp"
+    android:layout_marginEnd="4dp"
+    android:background="@drawable/task_background"
+    android:elevation="4dp"
+    android:orientation="horizontal"
+    android:paddingStart="4dp"
+    android:paddingEnd="0dp"
+    android:paddingBottom="4dp"
+    android:baselineAligned="false">
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="7dp"
+        android:layout_weight="0.6"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/idTVTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_bold"
+            android:text="@string/taskTitle"
+            android:textAllCaps="true"
+            android:textColor="@color/colorStatusIn"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/idTVNote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_medium"
+            android:maxLines="4"
+            android:minLines="1"
+            android:singleLine="false"
+            android:text="@string/taskNote"
+            android:textAlignment="viewStart"
+            android:textColor="@color/colorRed"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/idTVAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_medium"
+            android:maxLines="2"
+            android:minLines="2"
+            android:singleLine="false"
+            android:text="@string/taskAddress"
+            android:textAlignment="viewStart"
+            android:textColor="@color/colorRouteAddress"
+            android:textSize="12sp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/idTVFIO"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:minLines="1"
+            android:text="@string/fio_capitalized_placeholder"
+            android:textColor="@color/colorRouteFIO" />
+
+        <TextView
+            android:id="@+id/idTVLS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:minLines="1"
+            android:text="@string/taskLS"
+            android:textAllCaps="true"
+            android:textColor="@color/colorRouteLS" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.4"
+        android:gravity="end"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="UselessParent">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_gravity="end"
+                android:layout_marginTop="7dp"
+                android:layout_marginEnd="7dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/id_note_button"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginEnd="3dp"
+                    android:background="@drawable/app_pressable_background"
+                    android:scaleType="fitCenter"
+                    android:scaleX="0.8"
+                    android:scaleY="0.8"
+                    android:src="@drawable/icon_note"
+                    android:contentDescription="@string/taskNoteButtonDesc" />
+
+                <ImageButton
+                    android:id="@+id/id_status_button"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/app_pressable_background"
+                    android:scaleType="fitCenter"
+                    android:scaleX="0.9"
+                    android:scaleY="0.9"
+                    android:src="@drawable/icon_accepted_sand"
+                    android:contentDescription="@string/taskStatusButtonDesc" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/idTV_Date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="41dp"
+                android:layout_marginEnd="10dp"
+                android:fontFamily="@font/roboto"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:minLines="1"
+                android:text="@string/taskActualDueDate"
+                android:textAlignment="textEnd"
+                android:textColor="@color/colorRouteBefore" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

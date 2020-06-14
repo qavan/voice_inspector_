@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/colorLightGrey"
+    tools:context=".SplashScreenActivity">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="center"
+            android:inputType="none"
+            android:text="@string/settings_title"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/colorActivityTitle"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="38dp">
+
+            <TextView
+                android:id="@+id/idTVautostart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/roboto"
+                android:text="@string/settings_auto_start_title"
+                android:textAllCaps="true"
+                android:textColor="@color/colorMenuSwitchable"
+                android:textSize="20sp" />
+
+            <Switch
+                android:id="@+id/idSwitchAutoStart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@id/idTVautostart"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:checked="false"
+                android:fontFamily="@font/roboto_bold"
+                android:showText="false"
+                android:switchTextAppearance="@style/SwitchStyle"
+                android:textAlignment="gravity"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:theme="@style/SwitchStyle" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="38dp">
+
+            <TextView
+                android:id="@+id/idTVautoNetwork"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/roboto"
+                android:text="@string/settings_auto_network"
+                android:textAllCaps="true"
+                android:textColor="@color/colorMenuSwitchable"
+                android:textSize="20sp" />
+
+            <Switch
+                android:id="@+id/idSwitchAutoNetwork"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@id/idTVautoNetwork"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:checked="true"
+                android:fontFamily="@font/roboto_bold"
+                android:showText="false"
+                android:switchTextAppearance="@style/SwitchStyle"
+                android:textAlignment="gravity"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:theme="@style/SwitchStyle" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="38dp">
+
+            <TextView
+                android:id="@+id/idTVoptionTheme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/roboto"
+                android:text="@string/settings_theme"
+                android:textAllCaps="true"
+                android:textColor="@color/colorMenuSwitchable"
+                android:textSize="20sp" />
+
+            <Switch
+                android:id="@+id/idSwitchTheme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@id/idTVoptionTheme"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:checked="false"
+                android:fontFamily="@font/roboto_bold"
+                android:showText="false"
+                android:switchTextAppearance="@style/SwitchStyle"
+                android:textAlignment="gravity"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:theme="@style/SwitchStyle" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:layout_marginEnd="-22dp">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/roboto_light"
+                android:text="@string/settings_server_address"
+                android:textAllCaps="true"
+                android:textColor="@color/colorMenuNotSwitchable"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="28dp"
+                android:fontFamily="@font/roboto_light"
+                android:gravity="center"
+                android:text="@string/settings_server_address_placheholder"
+                android:textAlignment="gravity"
+                android:textColor="@color/colorMenuNotSwitchable"
+                android:textSize="16sp"
+                tools:ignore="RelativeOverlap" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:layout_marginEnd="-22dp">
+
+            <TextView
+                android:id="@+id/idTVAuth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/roboto_light"
+                android:text="@string/settings_key"
+                android:textAllCaps="true"
+                android:textColor="@color/colorMenuNotSwitchable"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="28dp"
+                android:fontFamily="@font/roboto_light"
+                android:gravity="center"
+                android:text="@string/settings_key_placeholder"
+                android:textAlignment="gravity"
+                android:textColor="@color/colorMenuNotSwitchable"
+                android:textSize="16sp"
+                tools:ignore="RelativeOverlap" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:layout_marginEnd="-22dp">
+
+            <TextView
+                android:id="@+id/idTVVoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:ellipsize="marquee"
+                android:fontFamily="@font/roboto_light"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:text="@string/settings_status"
+                android:textAllCaps="true"
+                android:textColor="@color/colorMenuNotSwitchable"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView222"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="28dp"
+                android:fontFamily="@font/roboto_light"
+                android:gravity="center"
+                android:text="@string/settings_status_text_on"
+                android:textAlignment="gravity"
+                android:textAllCaps="true"
+                android:textColor="@color/colorGreen"
+                android:textSize="16sp"
+                tools:ignore="RelativeOverlap" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/idButtonSave"
+                android:layout_width="150dp"
+                android:layout_height="44dp"
+                android:layout_alignParentEnd="true"
+                android:layout_gravity="end"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/app_button_red"
+                android:fontFamily="@font/roboto_medium"
+                android:text="@string/settings_button_save_text"
+                android:textColor="@color/colorButtonText"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/idButtonServiceAction"
+                android:layout_width="150dp"
+                android:layout_height="44dp"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="end"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/app_button_orange"
+                android:fontFamily="@font/roboto_medium"
+                android:maxLines="2"
+                android:minLines="2"
+                android:text="@string/settings_button_service_text_stop"
+                android:textColor="@color/colorButtonText"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

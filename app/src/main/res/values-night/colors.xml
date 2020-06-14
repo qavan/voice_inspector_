@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorGrey">#E6EFF3F5</color>
+    <color name="colorDarkGrey">#EFF3F5</color>
+    <color name="colorLightGrey">#E61E2021</color>
+    <color name="colorTransparentGrey">#3B64687C</color>
+    <color name="colorTaskPreviewBackground">#4F4F4F</color>
+    <color name="colorMain">#D95998E1</color>
+    <color name="colorGreen">#14C93C</color>
+    <color name="colorOrange">#E1A020</color>
+    <color name="colorRed">#E43939</color>
+    <color name="colorAdditionalRed">#E64D4D</color>
+    <color name="colorActivity">#1B68AF</color>
+    <color name="colorClick">#7D96AC</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <!-- common -->
+    <color name="colorActivityTitle">#E6EFF3F5</color>
+    <!-- settings -->
+    <color name="colorMenuSwitchable">@color/colorClick</color>
+    <color name="colorMenuSwitchColor">@color/colorGreen</color>
+    <color name="colorMenuNotSwitchable">@color/colorMain</color>
+    <color name="colorServiceButton">@color/colorOrange</color>
+    <color name="colorSaveButton">@color/colorRed</color>
+    <color name="colorButtonText">@color/colorWhite</color>
+    <!-- route -->
+    <color name="colorRouteItemBackground">#4F4F4F</color>
+    <color name="colorRouteItemBackgroundClicked">#858585</color>
+    <color name="colorRouteAddress">@color/colorMain</color>
+    <color name="colorRouteFIO">@color/colorDarkGrey</color>
+    <color name="colorRouteLS">@color/colorDarkGrey</color>
+    <color name="colorRouteBefore">@color/colorDarkGrey</color>
+    <color name="colorStatusIn">@color/colorGreen</color>
+    <color name="colorStatusPause">@color/colorOrange</color>
+    <color name="colorStatusDropped">@color/colorRed</color>
+    <color name="colorNoteButton">@color/colorDarkGrey</color>
+    <!-- card -->
+    <color name="colorCardNoteText">@color/colorWhite</color>
+    <color name="colorCardNoteBackground">@color/colorLightGrey</color>
+    <color name="colorCardNoteBackgroundClick">@color/colorTransparentGrey</color>
+    <color name="colorCardInfoText">@color/colorWhite</color>
+    <color name="colorCardInfoBackground">#4F4F4F</color>
+    <color name="colorCardInfoBackgroundClick">@color/colorTransparentGrey</color>
+    <color name="colorCardNumbersText">@color/colorWhite</color>
+    <color name="colorCardNumbersBackground">@color/colorActivity</color>
+    <color name="colorCardNumbersBackgroundClick">@color/colorClick</color>
+    <color name="colorCardTypeText">@color/colorMain</color>
+    <color name="colorCardTypeBackground">@color/colorLightGrey</color>
+    <color name="colorCardGVSStroke">@color/colorRed</color>
+    <color name="colorCardHVSStroke">@color/colorActivity</color>
+    <color name="colorCardELEStroke">@color/colorOrange</color>
+    <color name="colorCardPrevText">@color/colorDarkGrey</color>
+    <color name="colorCardCurrText">@color/colorMain</color>
+    <color name="colorCardCurrValue">@color/colorLightGrey</color>
+    <color name="colorCardSaveButtonText">@color/colorWhite</color>
+    <color name="colorCardSaveButtonBackground">#2B78BF</color>
+    <color name="colorCardSaveButtonBackgroundClick">@color/colorMain</color>
+    <color name="colorCardRBText">@color/colorDarkGrey</color>
+    <color name="colorCardRBSymbol">@color/colorClick</color>
+    <!-- number window -->
+    <color name="colorNumberPopupWindowBackground">#333333</color>
+    <color name="colorNumberPopupWindowText">@color/colorGrey</color>
+    <!-- note window -->
+    <color name="colorNotePopupWindowBackground">#333333</color>
+    <color name="colorNotePopupWindowText">@color/colorGrey</color>
+    <!-- filter window -->
+    <color name="colorFilterPopupWindowBackground">#333333</color>
+    <color name="colorFilterPopupWindowText">@color/colorGrey</color>
+    <color name="colorFilterPopupAccepted">@color/colorGreen</color>
+    <color name="colorFilterPopupPaused">@color/colorOrange</color>
+    <color name="colorFilterPopupProblem">@color/colorRed</color>
+    <color name="colorFilterPopupNote">@color/colorActivity</color>
+    <color name="colorFilterSwitchColor">@color/colorGreen</color>
+    <color name="colorFilterSwitchText">@color/colorDarkGrey</color>
+
+</resources>
