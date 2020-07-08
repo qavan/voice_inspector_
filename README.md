@@ -3,7 +3,7 @@
 
 ---
 
-<p>ReadMe actual at <a href="https://github.com/qavan/VoiceInspector/commit/1107aa08b4d1b5d56c09fe38efd088d201aadde9"><strong>1107aa0</strong></a>  commit. Alert, this repository is <strong>just</strong> for <strong>preview</strong>. <strong>Main</strong> development repository <strong>in private</strong>.</p>
+<p>ReadMe actual at <a href="https://github.com/qavan/VoiceInspector/commit/1107aa08b4d1b5d56c09fe38efd088d201aadde9"><strong>1107aa0</strong></a>  commit. Alert, <a href="https://github.com/qavan/voice_inspector_">this repository</a> is <strong>just</strong> for <strong>preview</strong>. **<a href="https://github.com/qavan/VoiceInspector">Main** development repository</a> <strong>in private</strong>.</p>
 <h2 id="«voice-inspector»">«Voice Inspector»</h2>
 <p>Android приложение для обходчика, выполняющего снятие показаний приборов учета.<br>
 Поддерживается графический и голосовой вводы.</p>
@@ -64,7 +64,8 @@
 <td>Pattern</td>
 </tr>
 </tbody>
-</table><h2 id="gif-preview">GIF PREVIEW</h2>
+</table><h2 id="ui-self-made-design">UI: <a href="https://i.imgur.com/8FPKddR.png">Self made design</a></h2>
+<h2 id="gif-preview">GIF PREVIEW</h2>
 <p><img src="https://psv4.userapi.com/c856424/u132968715/docs/d16/89ef9eeee0a4/gh450ktpA8.gif?extra=feo80iounbE6w4cAhozIj-yxvrgBZW3qCGAYdfLRebujVDR3drg-jzLHCTA_TUw4vBzbip6x402YwTQCwcdESHQF18Q-9KN-1d_rxBMFHgK0uHFW0k7TJHwVB1tEJdCvDJ9uilXAAj_tb7708gts9go" alt="here is gif of "></p>
 <h2 id="image-preview-with-descriptions">IMAGE PREVIEW WITH DESCRIPTIONS</h2>
 
