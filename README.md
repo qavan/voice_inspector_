@@ -3,7 +3,7 @@
 
 ---
 
-<p>ReadMe actual at <a href="https://github.com/qavan/VoiceInspector/commit/1107aa08b4d1b5d56c09fe38efd088d201aadde9"><strong>1107aa0</strong></a>  commit. Alert, <a href="https://github.com/qavan/voice_inspector_">this repository</a> is <strong>just</strong> for <strong>preview</strong>. **<a href="https://github.com/qavan/VoiceInspector">Main** development repository</a> <strong>in private</strong>.</p>
+<p>ReadMe actual at <a href="https://github.com/qavan/VoiceInspector/commit/1107aa08b4d1b5d56c09fe38efd088d201aadde9"><strong>1107aa0</strong></a>  commit. Alert, <a href="https://github.com/qavan/voice_inspector_">this repository</a> is <strong>just</strong> for <strong>preview</strong>. <a href="https://github.com/qavan/VoiceInspector"><strong>Main development repository</strong></a> <strong>in private</strong>.</p>
 <h2 id="«voice-inspector»">«Voice Inspector»</h2>
 <p>Android приложение для обходчика, выполняющего снятие показаний приборов учета.<br>
 Поддерживается графический и голосовой вводы.</p>
@@ -54,6 +54,10 @@
 <tr>
 <td><strong>Broadcast</strong></td>
 <td>Operating with local and remote databases</td>
+</tr>
+<tr>
+<td><strong>LiveData</strong></td>
+<td>AAC</td>
 </tr>
 <tr>
 <td><strong>MVVM</strong></td>
