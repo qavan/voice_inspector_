@@ -64,7 +64,9 @@
 <td>Pattern</td>
 </tr>
 </tbody>
-</table><h2 id="preview">PREVIEW</h2>
+</table><h2 id="gif-preview">GIF PREVIEW</h2>
+<p><img src="https://psv4.userapi.com/c856424/u132968715/docs/d16/89ef9eeee0a4/gh450ktpA8.gif?extra=feo80iounbE6w4cAhozIj-yxvrgBZW3qCGAYdfLRebujVDR3drg-jzLHCTA_TUw4vBzbip6x402YwTQCwcdESHQF18Q-9KN-1d_rxBMFHgK0uHFW0k7TJHwVB1tEJdCvDJ9uilXAAj_tb7708gts9go" alt="here is gif of "></p>
+<h2 id="image-preview-with-descriptions">IMAGE PREVIEW WITH DESCRIPTIONS</h2>
 
 <table>
 <thead>
