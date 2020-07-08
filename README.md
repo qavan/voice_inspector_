@@ -87,7 +87,7 @@
 </tr>
 <tr>
 <td>Tasks list. Supports statuses,notes,filter.</td>
-<td><img src="https://i.imgur.com/QjII6d6.png" alt="route with tasks"><img src="https://i.imgur.com/uiZAlS3.png" alt="card"><img src="https://i.imgur.com/cwvTS7v.png" alt="enter image description here"></td>
+<td><img src="https://i.imgur.com/QjII6d6.png" alt="route with tasks"></td>
 </tr>
 <tr>
 <td>GUI input. Supports full info (include counters of unical numbers).</td>
