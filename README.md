@@ -3,8 +3,9 @@
   <br>
 ReadMe actual at <a href="https://github.com/qavan/VoiceInspector/commit/c449e6edaa96b331ca15d7586408725dd828c217"><strong>c449e6e</strong></a>  commit. Alert, <a href="https://github.com/qavan/voice_inspector_">this repository</a> is <strong>just</strong> for <strong>preview</strong>. <a href="https://github.com/qavan/VoiceInspector"><strong>Main development repository</strong></a> <strong>in private</strong>.</p>
 <h2 id="«voice-inspector»">«Voice Inspector»</h2>
-<p>Android приложение для обходчика, выполняющего снятие показаний приборов учета.<br>
+<p>RU:Android приложение для обходчика, выполняющего снятие показаний приборов учета.<br>
 Поддерживается графический(готов) и голосовой вводы(в разработке).В зависимости от установленного языка системы поддерживаются языки RU и EN.</p>
+<p>EN:Voice Inspector is native Android app for operator which task is collecting indications utilities counters. Supports graphical(ready) and voice(in developing) input.</p>
 <h2 id="currently-in-development-paused-dropped">CURRENTLY: IN DEVELOPMENT <s><em>paused dropped</em></s></h2>
 <h2 id="version-0.0.5.13alpha">VERSION <strong>0.0.5.13alpha</strong></h2>
 <h2 id="stack">STACK</h2>
