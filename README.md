@@ -1,13 +1,10 @@
----
-
-
----
-
-<p><img src="https://github.com/qavan/VoiceInspector/workflows/Android%20CI/badge.svg" alt="Android CI"><img src="https://travis-ci.com/qavan/VoiceInspector.svg?token=U3sfyp5w6wy2KGstxWKE&amp;branch=master" alt="build status"><br>
+<p>
+  <img src="https://github.com/qavan/VoiceInspector/workflows/Android%20CI/badge.svg" alt="Android CI">
+  <br>
 ReadMe actual at <a href="https://github.com/qavan/VoiceInspector/commit/c449e6edaa96b331ca15d7586408725dd828c217"><strong>c449e6e</strong></a>  commit. Alert, <a href="https://github.com/qavan/voice_inspector_">this repository</a> is <strong>just</strong> for <strong>preview</strong>. <a href="https://github.com/qavan/VoiceInspector"><strong>Main development repository</strong></a> <strong>in private</strong>.</p>
 <h2 id="«voice-inspector»">«Voice Inspector»</h2>
 <p>Android приложение для обходчика, выполняющего снятие показаний приборов учета.<br>
-Поддерживается графический(готов) и голосовой вводы(в разработке).</p>
+Поддерживается графический(готов) и голосовой вводы(в разработке).В зависимости от установленного языка системы поддерживаются языки RU и EN.</p>
 <h2 id="currently-in-development-paused-dropped">CURRENTLY: IN DEVELOPMENT <s><em>paused dropped</em></s></h2>
 <h2 id="version-0.0.5.13alpha">VERSION <strong>0.0.5.13alpha</strong></h2>
 <h2 id="stack">STACK</h2>
@@ -71,7 +68,7 @@ ReadMe actual at <a href="https://github.com/qavan/VoiceInspector/commit/c449e6e
 </tbody>
 </table><h2 id="ui-self-made-design">UI: <a href="https://i.imgur.com/8FPKddR.png">Self made design</a></h2>
 <h2 id="gif-preview">GIF PREVIEW</h2>
-<p><img src="https://psv4.userapi.com/c856424/u132968715/docs/d16/89ef9eeee0a4/gh450ktpA8.gif?extra=feo80iounbE6w4cAhozIj-yxvrgBZW3qCGAYdfLRebujVDR3drg-jzLHCTA_TUw4vBzbip6x402YwTQCwcdESHQF18Q-9KN-1d_rxBMFHgK0uHFW0k7TJHwVB1tEJdCvDJ9uilXAAj_tb7708gts9go" alt="here is gif of "></p>
+<p><img src="https://media.giphy.com/media/Kc1ZFVrbpnc4WjcHoA/giphy.gif" alt="click to go to gif"></p>
 <h2 id="image-preview-with-descriptions">IMAGE PREVIEW WITH DESCRIPTIONS</h2>
 
 <table>
